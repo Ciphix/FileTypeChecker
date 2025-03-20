@@ -1,0 +1,226 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "version" : 1,
+  "metadata" : {
+    "tools" : [
+      {
+        "vendor" : "CycloneDX",
+        "name" : "cyclonedx-gradle-plugin",
+        "version" : "1.8.1"
+      }
+    ],
+    "component" : {
+      "group" : "com.mendix",
+      "name" : "temp",
+      "version" : "1.0.0",
+      "purl" : "pkg:maven/com.mendix/temp@1.0.0?type=jar",
+      "type" : "application",
+      "bom-ref" : "pkg:maven/com.mendix/temp@1.0.0?type=jar"
+    }
+  },
+  "components" : [
+    {
+      "group" : "org.slf4j",
+      "name" : "slf4j-api",
+      "version" : "1.7.36",
+      "description" : "The slf4j API",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "872da51f5de7f3923da4de871d57fd85"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "6c62681a2f655b49963a5983b8b0950a6120ae14"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "d3ef575e3e4979678dc01bf1dcce51021493b4d11fb7f1be8ad982877c16a1c0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f9b033fc019a44f98b16048da7e2b59edd4a6a527ba60e358f65ab88e0afae03a9340f1b3e8a543d49fa542290f499c5594259affa1ff3e6e7bf3b428d4c610b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "2b14ad035877087157e379d3277dcdcd79e58d6bdb147c47d29e377d75ce53ad42cafbf22f5fb7827c7e946ff4876b9a"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "3bc3110dafb8d5be16a39f3b2671a466463cd99eb39610c0e4719a7bf2d928f2ea213c734887c6926a07c4cca7769e4b"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "ba2608179fcf46e2291a90b9cbb4aa30d718e481f59c350cc21c73b88d826881"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "14c4edcd19702ef607d78826839d8a6d3a39157df54b89a801d3d3cbbe1307131a77671b041c761122730fb1387888c5ec2e46bdd80e1cb07f8f144676441824"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT",
+            "url" : "https://opensource.org/licenses/MIT"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+      "modified" : false,
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.tika",
+      "name" : "tika-core",
+      "version" : "1.28.5",
+      "description" : "This is the core Apache Tika™ toolkit library from which all other modules inherit functionality. It also includes the core facades for the Tika API.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8a162ab3f02e86fb07903bc54cd2c585"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "eb7c7d4b2e159e03dca986c41b79dfb2ed82005b"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e64b3dc06c60b98ecbdfb9dbc3857f4ab54f9548eedd449ee0de39c0df5e3170"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5ceaf7ad9e62b4eff512c00541c77f807d77a0737a11d52501d0b25024b8c578e7b7e8af7a469de6f6e54abf1ce02a35d33568cf35d4852c002c105762f7bb9d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "7a1991063d1ea6c81ef1d0c56f7c0c161c9a07829e90e544ce8f3abf46919396fc617b7c883c897b57e3bca58b2e58af"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "68ac73022d2c1423e4ee2c266fe25ca59c50d29dd12d774c00c3065e1f30da35e859d5eb3a752c4aa348d8d7cfc6fb74"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "edc799815afd167aa473ecb3481d680f6e69c4f1fb31d4f9894ed89d468d4c83"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "6aede09c8e91d4552a96429b0452217f1e3d08a2a335c0d02fbea53886c42bca6b7cabb6acac930be3a645361bc65f731b3610024cbbdbe4aed584acd200b52c"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.tika/tika-core@1.28.5?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://www.apache.org"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/job/Tika-trunk/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/TIKA"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.tika/tika-core@1.28.5?type=jar"
+    },
+    {
+      "group" : "commons-io",
+      "name" : "commons-io",
+      "version" : "2.11.0",
+      "description" : "The Apache Commons IO library contains utility classes, stream implementations, file filters, file comparators, endian transformation classes, and much more.",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "3b4b7ccfaeceeac240b804839ee1a1ca"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "a2503f302b11ebde7ebc3df41daebe0e4eea3689"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "961b2f6d87dbacc5d54abf45ab7a6e2495f89b75598962d8c723cea9bc210908"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5bd78eed456ede30119319c5bed8e3e4c443b6fd7bdb3a7a5686647bd83094d0c3e2832a7575cfb60e4ef25f08106b93476939d3adcfecf5533cc030b3039e10"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "114f1e324d90ad887c177876d410f5787a8e8da6c48d4b2862d365802c0efded3a88cb24046976bf6276cadad3712f0f"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "80288c03ad4d80d69f91d056ffc5570d49a9c76bf54ad2dff0121ecde26a560df76d05156f281f5c6db2a38ff07a873d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5adfb5ccaf5f21a549422f426118a9542673926fcd18c68390cf813e791dcf6c"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "7573f47f0babb53cefdc7c2309a0b982d800139064537b0797da442853d081010ad7c3c74a500598a0f800639a5d540eca21963ea652c68613907059bd4278c2"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/commons-io/commons-io@2.11.0?type=jar",
+      "modified" : false,
+      "externalReferences" : [
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/jira/browse/IO"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf?p=commons-io.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/commons-io/commons-io@2.11.0?type=jar"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/org.apache.tika/tika-core@1.28.5?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+        "pkg:maven/commons-io/commons-io@2.11.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.mendix/temp@1.0.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.tika/tika-core@1.28.5?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.slf4j/slf4j-api@1.7.36?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/commons-io/commons-io@2.11.0?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}
